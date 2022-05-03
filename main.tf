@@ -38,7 +38,7 @@ resource "aws_instance" "instance" {
 }
 
 resource "aws_ebs_volume" "ebs_volume" {
-  availability_zone = "us-east-1a"
+  availability_zone = "us-east-1d"
   size              = 10
   snapshot_id       = null
   type              = "gp2"
