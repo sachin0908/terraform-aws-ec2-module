@@ -1,6 +1,6 @@
 variable "ami_id" {
   type    = string
-  default = "ami-0ed9277fb7eb570c9"
+  default = "ami-0022f774911c1d690"
 }
 variable "instance_type" {
   type    = string
@@ -12,7 +12,7 @@ variable "associate_public_ip" {
 }
 variable "az" {
   type    = string
-  default = "us-east-1a"
+  default = "us-east-1d"
 }
 variable "disable_api_termination" {
   type    = bool
@@ -24,15 +24,15 @@ variable "instance_profile" {
 }
 variable "key" {
   type    = string
-  default = "dev-account"
+  default = "Terraform_Test_key"
 }
 variable "sg" {
   type    = list(any)
-  default = ["sg-0858149edde4ae5ae"]
+  default = ["sg-09b9b0730a48a28b7"]
 }
 variable "subnet_id" {
   type    = string
-  default = "subnet-03a2ea8c56ec8a1f2"
+  default = "subnet-0bca4add4ffe87abb"
 }
 variable "volume_size" {
   type    = number
